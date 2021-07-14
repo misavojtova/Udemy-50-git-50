@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <!-- StyleSheet -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Font awsome -->
+    <script
+      src="https://kit.fontawesome.com/92e1d4c934.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Section-->
+    <header id="nav-bar">
+      <ul>
+        <li><i class="fas fa-crown"></i></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="family.html">Royal Family</a></li>
+        <li><a href="assets.html">Royal Assets</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </header>
+    <section id="contact">
+      <h2>Contact the Royal Kingdom</h2>
+      <form id="contactForm">
+        <!-- First Name -->
+        <label for="firstname">First name:</label>
+        <input
+          type="text"
+          name="fname:"
+          id="firstname"
+          placeholder="Michaela"
+          value="M"
+        /><br />
+        <!-- Last Name -->
+        <label for="lastname">Last name:</label>
+        <input
+          type="text"
+          value="Vojtova"
+          id="lastname"
+          name="lname:"
+          placeholder="Vojtova"
+        />
+        <br />
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input
+          value="V@gmail.com"
+          type="email"
+          id="email"
+          name="email:"
+          placeholder="email@gmail.com"
+        /><br />
+        <!-- Message input -->
+        <label for="message">Message:</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="What is your favorite Royal Family Member??.."
+        ></textarea>
+
+        <div class="button">
+          <input id="btn" type="submit" value="submit" />
+        </div>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
